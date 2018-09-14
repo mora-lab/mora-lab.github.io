@@ -8,5 +8,6 @@ Currently, we are working on generating and applying **methods, software tools a
 
 We also have several other plans for the future, which include **personalized** and **dynamic** datasets, **text-mining** and **machine learning** methods, and other exciting topics.
 
+![Image](/gmu1.gif)
 
-[Link](url) and ![Image](src)
+[Link](https://www.scingularity.org/moralab)
