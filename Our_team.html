@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		  <p><center>
+  <!--#responsive-image { width: 80%; height: auto; } --> 
+  <img src="picture/GSACENTRAL_Banner.png" alt="GSA Central" id="responsive-image" width=100% />
+  </p>
+		<title>
+			<center>Our team
+		</title>
+	</head>
+	<body>
+		
+
+<!--A function that can enlarge picture -->
+<script>
+function bigImg(x){x.style.width="85%";}
+function normalImg(x){x.style.width="80%";}
+</script>
+<!--make a title "Our team"-->
+	<div id="header" style="background-color:#FFA500;">
+	<h1 style="text-align: center;">Our Team</h1></div>
+
+<div alt="team introduction" style="width:100%">
+<style>
+    span{}
+    #lab_history{width:100%;height:200px;background:#ffebcc;
+    }
+    #Antonio{
+        width:100%;height:200px;background:#ffebcc;
+        display:none;   
+    }
+    #Songqing{
+        width:100%;height:200px;background:#ffebcc;  
+        display:none;   
+    }
+    #Chengshu{
+        width:100%;height:200px;background:#ffebcc;   
+        display:none;   
+    }
+    #Shaurya{
+        width:100%;height:200px;background:#ffebcc;  
+        display:none;   
+    }
+    #Xiaowei{
+        width:100%;height:200px;background:#ffebcc;  
+        display:none; 
+    }      
+</style>
+
+<!--a table contained photos and names-->
+  <p>
+  <table style="text-align: center;">
+  <tr>
+  <th><img src="picture/team_photo/chengshu.png" width="80%" 
+  	onmouseover="bigImg(this)" 
+  	onmouseout="normalImg(this)" 
+  	border="0" /></th>
+  <th><img src="picture/team_photo/Songqing.png" width="80%" 
+  	onmouseover="bigImg(this)" 
+  	onmouseout="normalImg(this)" 
+  	border="0"/></th>
+   <th><img src="picture/team_photo/Antonio.png" width="80%" 
+   	onmouseover="bigImg(this)" 
+  	onmouseout="normalImg(this)" 
+  	border="0"/></th> 
+  <th><img src="picture/team_photo/Shaurya.png" width="80%" 
+  	onmouseover="bigImg(this)" 
+  	onmouseout="normalImg(this)" 
+  	border="0"/></th>
+  <th><img src="picture/team_photo/xiaowei.png" width="80%" 
+  	onmouseover="bigImg(this)" 
+  	onmouseout="normalImg(this)" 
+  	border="0"/></th>
+  </tr>
+  <tr>
+    <th><span>Chengshu</span></th>
+  	<th><span>Songqing</span></th>
+  	<th><span>Antonio Mora</span></th>
+  	<th><span>Shuarya Jauhari</span></th>
+  	<th><span>Xiaowei</span></th>
+  </tr>
+  </table>
+  </p>
+  
+<!--define format-->
+<script src="jquery.min.js"></script>
+
+<div id="lab_history">lab history</div>
+<div id="Chengshu">Xie Chengshu has a degree in Pharmaceutical Engineering from China Pharmaceutical University in Nanjing. She is currently a bioinformatics master student at Guangzhou Medical University, where she has finished a paper containing a benchmark study of single-sample GSA tools applied to COPD and other respiratory diseases.</div>
+<div id="Songqing">Mei Songqing has a M.Sc. in Informatics from Guangdong University of Technology. He has programming expertise in Java, R, and other programming languages, and has been a teacher of programming languages at the school of basic medical sciences of Guangzhou Medical University during the last 10 years. He has participated in bioinformatics projects and was the programmer of both the database and the website of The Gene Regulation Graph Database -GREG.</div>
+<div id="Antonio">Dr. Mora holds a master in chemical engineering from the National University of Colombia, a master in bioinformatics from Chalmers University of Technology (Sweden), and a Ph.D. in bioinformatics from the University of Oslo (Norway), as well as a postdoc at the United Arab Emirates University and National Research Council of Italy, and a postdoc at the University of Oslo (Norway).</div>
+<div id="Shaurya">Dr. Jauhari has a Ph.D. in bioinformatics from Jamia Millia Islamia (India) and is currently a postdoc researcher at the Joint School of Life Sciences Guangzhou Medical University and GIBH (Chinese Academy of Sciences). His postdoctoral work is centered around genomic GSA methods. He has currently built a benchmark study of genomic GSA tools.</div>
+<div id="Xiaowei">Huang Xiaowei has a degree in Biotechnology from Guangzhou Medical University. He has recently started his master degree studies working on genomic GSA methods of COPD.</div>
+
+<script>
+
+/*Antonio CV*/
+$("span").eq(0).click(function(){
+       $("div").eq(3).css("display","block");
+	   $("div").eq(4).css("display","none");
+	   $("div").eq(2).css("display","none");
+	   $("div").eq(5).css("display","none");
+	   $("div").eq(6).css("display","none");
+	   $("div").eq(7).css("display","none");
+
+    })	
+
+/*Songqing CV*/
+$("span").eq(1).click(function(){
+       $("div").eq(4).css("display","block");
+       $("div").eq(5).css("display","none");
+       $("div").eq(6).css("display","none");
+       $("div").eq(7).css("display","none");
+       $("div").eq(3).css("display","none");
+       $("div").eq(2).css("display","none");
+    })	
+    
+/*CHengshu_CV*/
+$("span").eq(2).click(function(){
+       $("div").eq(5).css("display","block");
+       $("div").eq(6).css("display","none");
+       $("div").eq(7).css("display","none");
+       $("div").eq(2).css("display","none");
+       $("div").eq(3).css("display","none");
+       $("div").eq(4).css("display","none");
+    })
+
+/*shaurya*/
+$("span").eq(3).click(function(){
+       $("div").eq(6).css("display","block");
+       $("div").eq(7).css("display","none");
+       $("div").eq(2).css("display","none");
+       $("div").eq(3).css("display","none");
+       $("div").eq(4).css("display","none");
+       $("div").eq(5).css("display","none");
+    })
+
+/*Xiaowei*/
+$("span").eq(4).click(function(){
+       $("div").eq(7).css("display","block");
+       $("div").eq(6).css("display","none");
+       $("div").eq(2).css("display","none");
+       $("div").eq(3).css("display","none");
+       $("div").eq(4).css("display","none");
+       $("div").eq(5).css("display","none");
+    })
+       </script>
+
+</div>
+
+<div id="footer" style="background-color:#FFA500;clear:both;text-align:center;">
+Mora Lab</div>	
+	</body>
+</html>

@@ -1,4 +1,4 @@
-![MoraLab](/MORALAB_Banner.png)
+![MoraLab](/picture/MORALAB_Banner.png)
 
 # Welcome to the Mora Lab
 
@@ -8,4 +8,4 @@ Currently, we are working on generating and applying **methods, software tools a
 
 We also have several other plans for the future, which include **personalized** and **dynamic** datasets, **text-mining** and **machine learning** methods, and other exciting topics.
 
-![GMU](/gmu1.GIF)
+![GMU](/picture/gmu1.GIF)
