@@ -1,23 +1,50 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		  <p><center>
-  <!--#responsive-image { width: 80%; height: auto; } --> 
-  <img src="picture/MORALAB_Banner.png" alt="GSA Central" id="responsive-image" width=100% />
-  </p>
-		<title>
-			People
-		</title>
-	</head>
-	<body>
-		
+
+<head>
+	<meta charset="UTF-8">
+	<p><center>
+  	<!--#responsive-image { width: 90%; height: auto; } --> 
+  	<img src="picture/MORALAB_Banner.png" alt="MoraLab" id="responsive-image" width=90% />
+	</center></p>
+	<title>
+		People
+	</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+div.scrollmenu {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+}
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+div.scrollmenu a:hover {
+  background-color: #777;
+}
+</style>
+</head>
+
+<body>	
+
+<div class="scrollmenu">
+  <a href="https://mora-lab.github.io/index.html">Home</a>
+  <a href="https://mora-lab.github.io/Our_team.html">People</a>
+  <a href="https://mora-lab.github.io/index.html">Projects</a>
+</div>
 
 <!--A function to enlarge pictures -->
 <script>
 function bigImg(x){x.style.width="85%";}
 function normalImg(x){x.style.width="80%";}
 </script>
+
 <!--make a title "Our team"-->
 	<div id="header" style="background-color:#FFA500;">
 	<h1 style="text-align: center;">People</h1></div>
@@ -150,7 +177,7 @@ $("span").eq(4).click(function(){
 
 </div>
 
-<div id="footer" style="background-color:#FFA500;clear:both;text-align:center;">
+<div id="footer" style="background-color:#333;clear:both;text-align:center;">
 Mora Lab</div>	
 	</body>
 </html>
