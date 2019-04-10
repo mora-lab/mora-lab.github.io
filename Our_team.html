@@ -31,6 +31,7 @@ div.scrollmenu a {
 div.scrollmenu a:hover {
   background-color: #777;
 }
+div.padding2side{padding-left: 5%;padding-right: 5%;}
 </style>
 </head>
 
@@ -59,32 +60,32 @@ function normalImg(x){x.style.width="80%";}
 <div alt="team introduction" style="width:100%">
 <style>
     span{}
-    #lab_history{width:100%;height:200px;background:#ffebcc;
+    #lab_history{width:90%;height:200px;background:#ffebcc;
     }
     #Antonio{
-        width:100%;height:200px;background:#ffebcc;
+        width:90%;height:200px;background:#ffebcc;
         display:none;   
     }
     #Songqing{
-        width:100%;height:200px;background:#ffebcc;  
+        width:90%;height:200px;background:#ffebcc;  
         display:none;   
     }
     #Chengshu{
-        width:100%;height:200px;background:#ffebcc;   
+        width:90%;height:200px;background:#ffebcc;   
         display:none;   
     }
     #Shaurya{
-        width:100%;height:200px;background:#ffebcc;  
+        width:90%;height:200px;background:#ffebcc;  
         display:none;   
     }
     #Xiaowei{
-        width:100%;height:200px;background:#ffebcc;  
+        width:90%;height:200px;background:#ffebcc;  
         display:none; 
     }      
 </style>
 
 <!--A table containing photos and names-->
-  <p>
+  <div class="padding2side">
   <table style="text-align: center;">
   <tr>
   <th><span><img src="picture/team_photo/chengshu.png" width="80%" 
@@ -116,18 +117,18 @@ function normalImg(x){x.style.width="80%";}
   	<th>Huang Xiaowei</th>
   </tr>
   </table>
-  </p>
+  </div>
   
 <!--define format-->
 <script src="jquery.min.js"></script>
-
+<center>
 <div id="lab_history">lab history</div>
 <div id="Chengshu">Xie Chengshu has a degree in Pharmaceutical Engineering from China Pharmaceutical University in Nanjing. She is currently a bioinformatics master student at Guangzhou Medical University, where she has finished a paper containing a benchmark study of single-sample GSA tools applied to COPD and other respiratory diseases.</div>
 <div id="Songqing">Mei Songqing has a M.Sc. in Informatics from Guangdong University of Technology. He has programming expertise in Java, R, and other programming languages, and has been a teacher of programming languages at the school of basic medical sciences of Guangzhou Medical University during the last 10 years. He has participated in bioinformatics projects and was the programmer of both the database and the website of The Gene Regulation Graph Database -GREG.</div>
 <div id="Antonio">Dr. Mora holds a master in chemical engineering from the National University of Colombia, a master in bioinformatics from Chalmers University of Technology (Sweden), and a Ph.D. in bioinformatics from the University of Oslo (Norway), as well as a postdoc at the United Arab Emirates University and National Research Council of Italy, and a postdoc at the University of Oslo (Norway).</div>
 <div id="Shaurya">Dr. Jauhari has a Ph.D. in bioinformatics from Jamia Millia Islamia (India) and is currently a postdoc researcher at the Joint School of Life Sciences Guangzhou Medical University and GIBH (Chinese Academy of Sciences). His postdoctoral work is centered around genomic GSA methods. He has currently built a benchmark study of genomic GSA tools.</div>
 <div id="Xiaowei">Huang Xiaowei has a degree in Biotechnology from Guangzhou Medical University. He has recently started his master degree studies working on genomic GSA methods of COPD.</div>
-
+</center>
 <script>
 
 /*Antonio CV*/
@@ -184,7 +185,9 @@ $("span").eq(4).click(function(){
 
 </div>
 
+<div class="padding2side">
 <p>We are recruiting!: <a href="https://www.biostars.org/p/244101/">https://www.biostars.org/p/244101/</a></p>
+</div>
 <!--<div id="footer" style="background-color:#333;clear:both;text-align:center;">
 Mora Lab</div>-->	
 
