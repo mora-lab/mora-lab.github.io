@@ -16,23 +16,42 @@
 <!--Menu -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-div.scrollmenu {
-  background-color: #333;
-  overflow: auto;
-  white-space: nowrap;
-}
-div.scrollmenu a {
-  display: inline-block;
-  color: white;
-  text-align: center;
-  padding: 14px;
-  text-decoration: none;
-}
-div.scrollmenu a:hover {
-  background-color: #777;
-}
-div.padding2side{padding-left: 5%;padding-right: 5%;}
+		div.scrollmenu {
+		  background-color: #333;
+		  overflow: auto;
+		  white-space: nowrap;
+		}
+		div.scrollmenu a {
+		  display: inline-block;
+		  color: white;
+		  text-align: center;
+		  padding: 14px;
+		  text-decoration: none;
+		}
+		div.scrollmenu a:hover {
+		  background-color: #777;
+		}
+		div.padding2side{padding-left: 5%;padding-right: 5%;}
+		
+		nav span{
+		            display: inline;
+		            width: 24%;
+		            text-decoration: none;
+		            padding: 10px;
+		        }
+
+        section{
+            width:28%;height:250px;background:#f2f2f2;padding:5px 16px;
+            text-align: left;text-indent: 32px;
+        }
+        
 </style>
+
+<!--A function to enlarge pictures --------------------------------------------------------------------------------------->
+<script>
+		function bigImg(x){x.style.width="82%";}
+		function normalImg(x){x.style.width="80%";}
+</script>
 </head>
 
 <body>	
@@ -45,11 +64,7 @@ div.padding2side{padding-left: 5%;padding-right: 5%;}
   <a href="https://mora-lab.github.io/Our_team.html">People</a>
 </div>
 
-<!--A function to enlarge pictures -->
-<script>
-function bigImg(x){x.style.width="85%";}
-function normalImg(x){x.style.width="80%";}
-</script>
+
 
 <!--Title-->
 	<H1>People</H1>
@@ -58,162 +73,172 @@ function normalImg(x){x.style.width="80%";}
 	</center>
 
 <div alt="team introduction" style="width:100%">
-<style>
-    span{}
-    #lab_leader{width:28%;height:200px;background:#f2f2f2;padding:5px 16px;
-    }
-    #Antonio{
-        width:28%;height:200px;background:#f2f2f2;padding:5px 16px;
-        display:none;   
-    }
-    #Songqing{
-        width:28%;height:200px;background:#f2f2f2;padding:5px 16px;  
-        display:none;   
-    }
-    #Chengshu{
-        width:28%;height:200px;background:#f2f2f2;padding:5px 16px;   
-        display:none;   
-    }
-    #Shaurya{
-        width:28%;height:200px;background:#f2f2f2;padding:5px 16px;  
-        display:none;   
-    }
-    #Xiaowei{
-        width:28%;height:200px;background:#f2f2f2;padding:5px 16px;  
-        display:none; 
-    }      
-</style>
 
-<!--A table containing photos and names-->
-
-  <table style="text-align: center;">
-  <tr>
-  <th><span><img src="picture/team_photo/chengshu.png" width="80%" 
-  	onmouseover="bigImg(this)" 
-  	onmouseout="normalImg(this)" 
-  	border="0" /></span></th>
-  <th><span><img src="picture/team_photo/Songqing.png" width="80%" 
-  	onmouseover="bigImg(this)" 
-  	onmouseout="normalImg(this)" 
-  	border="0"/></span></th>
-   <th><span><img src="picture/team_photo/Antonio.png" width="80%" 
-   	onmouseover="bigImg(this)" 
-  	onmouseout="normalImg(this)" 
-  	border="0"/></span></th> 
-  <th><span><img src="picture/team_photo/Shaurya.png" width="80%" 
-  	onmouseover="bigImg(this)" 
-  	onmouseout="normalImg(this)" 
-  	border="0"/></span></th>
-  <th><span><img src="picture/team_photo/xiaowei.png" width="80%" 
-  	onmouseover="bigImg(this)" 
-  	onmouseout="normalImg(this)" 
-  	border="0"/></span></th>
-  </tr>
-  <tr>
-    <th>Xie Chengshu</th>
-  	<th>Mei Songqing</th>
-  	<th>Antonio Mora</th>
-  	<th>Shaurya Jauhari</th>
-  	<th>Huang Xiaowei</th>
-  </tr>
+<!--A table containing photos and names----------------------------------------------------------------------------------------->
+<nav id="team">
+ <table style="text-align: center;">
+ 	<span></span> <!--Here is for the text "Click on a face"-->
+	  <tr>
+		  <th><span><img src="picture/team_photo/chengshu.png" width="80%" 
+		  	onmouseover="bigImg(this)" 
+		  	onmouseout="normalImg(this)" 
+		  	border="0" /></span></th>
+		  <th><span><img src="picture/team_photo/Songqing.png" width="80%" 
+		  	onmouseover="bigImg(this)" 
+		  	onmouseout="normalImg(this)" 
+		  	border="0"/></span></th>
+		   <th><span><img src="picture/team_photo/Antonio.png" width="80%" 
+		   	onmouseover="bigImg(this)" 
+		  	onmouseout="normalImg(this)" 
+		  	border="0"/></span></th> 
+		  <th><span><img src="picture/team_photo/Shaurya.png" width="80%" 
+		  	onmouseover="bigImg(this)" 
+		  	onmouseout="normalImg(this)" 
+		  	border="0"/></span></th>
+		  <th><span><img src="picture/team_photo/xiaowei.png" width="80%" 
+		  	onmouseover="bigImg(this)" 
+		  	onmouseout="normalImg(this)" 
+		  	border="0"/></span></th>
+	  </tr>
+	  <tr>
+	    <th><span>Xie Chengshu</span></th>
+	  	<th><span>Mei Songqing</span></th>
+	  	<th><span>Antonio Mora</span></th>
+	  	<th><span>Shaurya Jauhari</span></th>
+	  	<th><span>Huang Xiaowei</span></th>
+	  </tr>
   </table>
-  </div>
-  
-<!--define format-->
-<script src="jquery.min.js"></script>
+</nav>
+</div>
+
+<!--make a black line ---------------------------------------------------------------------------------------------------------->
+<p></p>
+
+<!--A function show the introduction text base on their name or photo------------------------------------------------------------->
+<script>
+window.onload=function () {
+  //to get the number of span tag 
+        var nav=document.getElementById('team');
+        var oNav=nav.getElementsByTagName('span');
+  // to get content in section
+        var container=document.getElementById('introduction');
+        var oDiv=container.getElementsByClassName('tab');
+  // for loop to get the span   
+        for(var i=0;i<oNav.length;i++){
+            oNav[i].index=i;
+  // every time perform onmouseover function after get the span
+            oNav[i].onmouseover=function () {  //here we can use onclick or onmouseover function
+  // display introduction content to correlated span          
+                for(var i=0;i<oNav.length;i++){
+                    oNav[i].className='';
+                    oDiv[i].style.display="none";
+                }
+                this.className='act';
+                oDiv[this.index].style.display="block"
+            }
+            for(var m=1;m<oNav.length;m++){
+                    oNav[m].className='';
+                    oDiv[m].style.display="none";
+                }
+           
+        }
+        
+       
+   }; 
+</script>
+
+
+<!--introduction content--------------------------------------------------------------------------------------------------------->
 <center>
-<div id="lab_leader">
-	** Click on a face **
-</div>
+<div id="introduction">
+	
+    <section class="tab" >
+   <p style="text-align: center;">** onmouseover on a face ** </p>
+    </section>
+    	
+    <section class="tab">
+    	<h4 style="text-align: center;">Xie Chengshu</h4>
+    	<p >
+					Xie Chengshu is a master student. She has a degree in Pharmaceutical Engineering from China Pharmaceutical University in Nanjing. She is working on single-sample and integrative GSA methods.
+					</p>
+    </section>
+    
+    <section class="tab">
+    	<h4 style="text-align: center;">Mei Songqing</h4>
+    	<p>
+					Mei Songqing is an associate researcher. He has a M.Sc. in Informatics from Guangdong University of Technology. He is working on biological graph databases.
+					</p>
+    </section>
+     
+    <section class="tab">
+    	<h4 style="text-align: center;">Antonio Mora</h4>
+    	<p style="text-align: left;text-indent: 32px;">
+			Antonio Mora is the Group Leader. You can find him at: </p>
+		<p style="text-align: left;text-indent: 32px;">
+				LinkedIN: <a href="https://bit.ly/2vASkxf" target="_blank">https://bit.ly/2vASkxf</a><br/></p>
+		<p style="text-align: left;text-indent: 32px;">
+				LOOP: <a href="https://bit.ly/2JiDzBc" target="_blank"> https://bit.ly/2JiDzBc </a></p>
+		<p style="text-align: left;text-indent: 32px;">
+				Google Scholar: <a href="//bit.ly/2HTH1ma" target="_blank">https://bit.ly/2HTH1ma</a></p>
+    </section>
+    
+    <section class="tab">
+    	<h4 style="text-align: center;">Shaurya Jauhari</h4>
+    	<p >
+					Shaurya Jauhari is a postdoc researcher. He has a Ph.D. in bioinformatics from Jamia Millia Islamia (India). He is working on genomic range GSA methods.
+					</p>
+    	</section>    
+    	
+    <section class="tab">
+    	<h4 style="text-align: center;">Huang Xiaowei</h4>
+    	<p >
+					Huang Xiaowei is a master student. He has a degree in Biotechnology from Guangzhou Medical University. He is working on dynamic (time-course) GSA.
+					</P>
+    	</section>
+    	
+<!--duplicate-------------------------------------------------------------------------------------------------------------------------->    	
+    <section class="tab">
+    	<h4 style="text-align: center;">Xie Chengshu</h4>
+    	<p >
+					Xie Chengshu is a master student. She has a degree in Pharmaceutical Engineering from China Pharmaceutical University in Nanjing. She is working on single-sample and integrative GSA methods.
+					</p>
+    </section>
+    
+    <section class="tab">
+    	<h4 style="text-align: center;">Mei Songqing</h4>
+    	<p>
+					Mei Songqing is an associate researcher. He has a M.Sc. in Informatics from Guangdong University of Technology. He is working on biological graph databases.
+					</p>
+    </section>
+     
+    <section class="tab">
+    	<h4 style="text-align: center;">Antonio Mora</h4>
+    	<p style="text-align: left;text-indent: 32px;">
+			Antonio Mora is the Group Leader. You can find him at: </p>
+		<p style="text-align: left;text-indent: 32px;">
+				LinkedIN: <a href="https://bit.ly/2vASkxf" target="_blank">https://bit.ly/2vASkxf</a><br/></p>
+		<p style="text-align: left;text-indent: 32px;">
+				LOOP: <a href="https://bit.ly/2JiDzBc" target="_blank"> https://bit.ly/2JiDzBc </a></p>
+		<p style="text-align: left;text-indent: 32px;">
+				Google Scholar: <a href="//bit.ly/2HTH1ma" target="_blank">https://bit.ly/2HTH1ma</a></p>
+    </section>
+    
+    <section class="tab">
+    	<h4 style="text-align: center;">Shaurya Jauhari</h4>
+    	<p >
+					Shaurya Jauhari is a postdoc researcher. He has a Ph.D. in bioinformatics from Jamia Millia Islamia (India). He is working on genomic range GSA methods.
+					</p>
+    	</section>    
+    	
+    <section class="tab">
+    	<h4 style="text-align: center;">Huang Xiaowei</h4>
+    	<p >
+					Huang Xiaowei is a master student. He has a degree in Biotechnology from Guangzhou Medical University. He is working on dynamic (time-course) GSA.
+					</P>
+    	</section>
 
-<div id="Chengshu">
-	<p style="text-align: left;text-indent: 32px;">
-	Xie Chengshu is a master student. She has a degree in Pharmaceutical Engineering from China Pharmaceutical University in Nanjing. She is working on single-sample and integrative GSA methods.
-	</p>
-</div>
-
-<div id="Songqing">
-	<p style="text-align: left;text-indent: 32px;">
-	Mei Songqing is an associate researcher. He has a M.Sc. in Informatics from Guangdong University of Technology. He is working on biological graph databases.
-	</p>
-</div>
-
-<div id="Antonio">
-	<p style="text-align: left;text-indent: 32px;">
-	Antonio Mora is the Group Leader. You can find him at: </p>
-	<p style="text-align: left;text-indent: 32px;">
-	LinkedIN: <a href="https://bit.ly/2vASkxf" target="_blank">https://bit.ly/2vASkxf</a><br/></p>
-	<p style="text-align: left;text-indent: 32px;">
-	LOOP: <a href="https://bit.ly/2JiDzBc" target="_blank"> https://bit.ly/2JiDzBc </a></p>
-	<p style="text-align: left;text-indent: 32px;">
-	Google Scholar: <a href="//bit.ly/2HTH1ma" target="_blank">https://bit.ly/2HTH1ma</a></p>
-</div>
-
-<div id="Shaurya">
-	<p style="text-align: left;text-indent: 32px;">
-	Shaurya Jauhari is a postdoc researcher. He has a Ph.D. in bioinformatics from Jamia Millia Islamia (India). He is working on genomic range GSA methods.
-	</p>
-</div>
-
-<div id="Xiaowei">
-	<p style="text-align: left;text-indent: 32px;">
-	Huang Xiaowei is a master student. He has a degree in Biotechnology from Guangzhou Medical University. He is working on dynamic (time-course) GSA.
-	</P>
 </div>
 </center>
-<script>
-
-/*Antonio CV*/
-$("span").eq(0).click(function(){
-       $("div").eq(3).css("display","block");
-	   $("div").eq(4).css("display","none");
-	   $("div").eq(2).css("display","none");
-	   $("div").eq(5).css("display","none");
-	   $("div").eq(6).css("display","none");
-	   $("div").eq(7).css("display","none");
-
-    })	
-
-/*Songqing CV*/
-$("span").eq(1).click(function(){
-       $("div").eq(4).css("display","block");
-       $("div").eq(5).css("display","none");
-       $("div").eq(6).css("display","none");
-       $("div").eq(7).css("display","none");
-       $("div").eq(3).css("display","none");
-       $("div").eq(2).css("display","none");
-    })	
-    
-/*CHengshu_CV*/
-$("span").eq(2).click(function(){
-       $("div").eq(5).css("display","block");
-       $("div").eq(6).css("display","none");
-       $("div").eq(7).css("display","none");
-       $("div").eq(2).css("display","none");
-       $("div").eq(3).css("display","none");
-       $("div").eq(4).css("display","none");
-    })
-
-/*shaurya*/
-$("span").eq(3).click(function(){
-       $("div").eq(6).css("display","block");
-       $("div").eq(7).css("display","none");
-       $("div").eq(2).css("display","none");
-       $("div").eq(3).css("display","none");
-       $("div").eq(4).css("display","none");
-       $("div").eq(5).css("display","none");
-    })
-
-/*Xiaowei*/
-$("span").eq(4).click(function(){
-       $("div").eq(7).css("display","block");
-       $("div").eq(6).css("display","none");
-       $("div").eq(2).css("display","none");
-       $("div").eq(3).css("display","none");
-       $("div").eq(4).css("display","none");
-       $("div").eq(5).css("display","none");
-    })
-       </script>
 
 
 
