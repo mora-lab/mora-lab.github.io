@@ -60,19 +60,19 @@
 
 	
 <!-- for introduction box ----------------------------->
-<style type="text/css">
-	.sectionformatForPerson {background-color:#efefef ;padding: 16px 10%;  }
-		.box0 { align-content: center; max-width: 980px; margin:0 auto;}
-			.h2IDtext {max-height: 40px;}
-			.box1 {height: 230px;   background: #ffffff; display: flex; }
-				.box3 {max-width: 230px;float: left; flex-grow: 1; flex-shrink: 1; }
-					.imgformat {max-width: 100%;  height: auto; min-width: 50px; float: left;  margin: 0 auto;}
-				.box2 {max-width: 750px; float:left; padding: 0px 32px 5px ; flex-grow: 1; flex-shrink: 3; }
-					.h3personName {text-align: center; padding: 16px 0 5px;}
-	
+	<style type="text/css">
+		.sectionformatForPerson {background-color:#efefef ;padding: 1rem 10%;  }
+			.h2IDtext {height: 40px;} /* for the title of researchers and students*/
+			.classpeople{ display:flex; flex-wrap: wrap; justify-content: flex-start; align-content: flex-start; }
+				.box1 {background: #ffffff; max-width: 420px; margin:1rem 2rem; } /* for person picture and introduction words*/
+					.box3 {max-width: 420px; padding: 1rem 1rem  } /* for person picture*/
+						.imgformat {max-width: 100%;  height: auto;  } /* for the everyone picture*/
+					.box2 {height: 230px; max-width: 420px;  padding: 0px 2rem 5px ; } /* for introduction words*/
+						.h3personName {text-align: center; } /* for people name*/
 		
-		
-</style>
+			
+			
+	</style>
 
 
 </head>
@@ -156,9 +156,11 @@
 <!--Header section------------------------------------------------------------------------------------------------------>
 
 <section class="sectionformatForPerson">
+	<h2 style=""><img src="picture/team_photo/PI.png">Researchers</h2>
+	<div class = "classpeople">
 <!-- Antonio Mora -->
-	<div class="box0">
-		<h2 style=""><img src="picture/team_photo/PI.png">Researchers</h2>
+	
+		
 		<div class="box1">
 			<div class="box3">
 				<img src="picture/team_photo/Antonio.png" class="imgformat">
@@ -178,13 +180,11 @@
 				</ul></p>
 			</div>
 		</div>
-	</div>
 	
-</section>
+	
 
-<section class="sectionformatForPerson">
 <!-- Shaurya Jauhari -->
-	<div class="box0">
+	
 		<!-- <h2 style=""><img src="picture/team_photo/postdoctoral.png"> Postdoctoral Associate</h2> -->
 		<div class="box1">
 			<div class="box3">
@@ -205,13 +205,13 @@
 				</ul></p>
 			</div>
 		</div>
-	</div>	
-</section>
+		
+
 
 <!-- Songqing---------------------------------------------------------------------------------------------- -->
-<section class="sectionformatForPerson">
+
 <!-- Songqing -->
-	<div class="box0">
+	
 		<!-- <h2 style=""><img src="picture/team_photo/teacher.png" width=""> Teacher</h2> -->
 		<div class="box1">
 			<div class="box3">
@@ -226,12 +226,12 @@
 				</ul></p>
 			</div>
 		</div>
-	</div>
-</section>
+	
+
 
 <!-- Fangqin -->
-<section class="sectionformatForPerson">
-	<div class="box0">
+
+	
 		<div class="box1">
 			<div class="box3">
 				<img src="picture/team_photo/Fangqin.jpg" class="imgformat">
@@ -246,13 +246,16 @@
 			</div>
 		</div>
 	</div>
+	
 </section>
 
 <!-- Master student ----------------------------------------------------------------------------->
 <section class="sectionformatForPerson">
+	<h2 style=""><img src="picture/team_photo/master_student.png">Students</h2>
+	<div class = "classpeople">
+	
 <!-- Chengshu -->
-	<div class="box0">
-		<h2 style=""><img src="picture/team_photo/master_student.png">Students</h2>
+	
 		<div class="box1">
 			<div class="box3">
 				<img src="picture/team_photo/chengshu.png" class="imgformat">
@@ -275,13 +278,13 @@
 				<li><p ><a href="https://github.com/Chengshu21" target="_blank">Github</a></p></li>
 				</ul></p>
 			</div>
-		</div>
-	</div>
-</section>
+		</div> 
 
-<section class="sectionformatForPerson">
+
+
+
 <!-- Xiaowei -->
-	<div class="box0">
+
 		<div class="box1">
 			<div class="box3">
 				<img src="picture/team_photo/xiaowei.png" class="imgformat">
@@ -303,12 +306,12 @@
 				</ul></p>
 			</div>
 		</div>
-	</div>
-</section>
 
-<section class="sectionformatForPerson">
+
+ 
+
 <!-- XuanYi -->
-	<div class="box0">	
+
 		<div class="box1">
 			<div class="box3">
 				<img src="picture/team_photo/xuanyi.jpg" class="imgformat">
@@ -323,6 +326,7 @@
 			</div>
 		</div>
 	</div>
+
 </section>
 
 <!--Recruiting message-------------------------------------------------------------------------------------->
