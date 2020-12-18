@@ -30,7 +30,7 @@ document.writeln("	          <span class=\'icon54-v1-microscope mbr-iconfont mbr
 document.writeln("                  Research</a>");
 document.writeln("               </li>");
 document.writeln("	       <li class=\'nav-item\'>");
-document.writeln("		   <a class=\'nav-link link text-white display-4\' href=\'Our_team.html\'>");
+document.writeln("		   <a class=\'nav-link link text-white display-4\' href=\'team.html\'>");
 document.writeln("		   <span class=\'imind-search-people mbr-iconfont mbr-iconfont-btn\'></span>");
 document.writeln("                   People</a>");
 document.writeln("	       </li>");
