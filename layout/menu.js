@@ -81,7 +81,7 @@ document.writeln("</section>");
                   Research</a>
                </li>
 	       <li class="nav-item">
-		   <a class="nav-link link text-white display-4" href="Our_team.html">
+		   <a class="nav-link link text-white display-4" href="team.html">
 		   <span class="imind-search-people mbr-iconfont mbr-iconfont-btn"></span>
                    People</a>
 	       </li>
