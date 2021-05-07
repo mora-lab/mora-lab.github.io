@@ -6,6 +6,6 @@ We are a bioinformatics research group at the Joint School of Life Sciences ([Gu
 
 Our main interests are the development of novel **biological databases** and the generation of bioinformatic tools for the **functional and mechanistic interpretation** of different types of **omics data**.
 
-**Keywords:** Databases, Gene Set Analysis, Network Analysis, Machine Learning, Text Mining, Benchmarks, Chromatin Interactions, Extracellular Interactions, Respiratory disease, R, graph databases.
+**Keywords:** Graph Databases, Gene Set Analysis, Network Analysis, Machine Learning, Text Mining, Benchmarks, Chromatin Interactions, Extracellular Interactions, Respiratory disease, R, python.
 
 ![GMU](/picture/gmu1.GIF)
