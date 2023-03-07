@@ -17,8 +17,8 @@ document.writeln("</section>");
         <div class="media-container-row align-center mbr-white">
             <div class="col-12">
                 <p class="mbr-text mb-0 mbr-fonts-style display-7">
-                    © Mora Lab, 2020<br>
-		    Last updated: Nov 16th, 2020
+                    © Mora Lab, 2023<br>
+		    Last updated: Mar 7th, 2023
                 </p>
             </div>
         </div>
