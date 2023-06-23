@@ -4,7 +4,7 @@ document.writeln("        <div class=\'media-container-row align-center mbr-whit
 document.writeln("            <div class=\'col-12\'>");
 document.writeln("                <p class=\'mbr-text mb-0 mbr-fonts-style display-7\'>");
 document.writeln("                    © Mora Lab, 2023<br>");
-document.writeln("		    Last updated: Mar. 28th, 2023");
+document.writeln("		    Last updated: Jun. 23rd, 2023");
 document.writeln("                </p>");
 document.writeln("            </div>");
 document.writeln("        </div>");
